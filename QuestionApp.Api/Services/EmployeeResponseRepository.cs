@@ -5,8 +5,13 @@ public class EmployeeResponseRepository : IEmployeeResponseRepository
 {
     private readonly Container _container;
 
-    public EmployeeResponseRepository(CosmosClient cosmosClient, string databaseName, string containerName)
+    public EmployeeResponseRepository(
+        string connection,
+        string key,
+        string databaseName,
+        string containerName)
     {
+        var cosmosClient = new CosmosClient(connection, key, new CosmosClientOptions(){});
         _container = cosmosClient.GetContainer(databaseName, containerName);
     }
 

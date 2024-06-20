@@ -17,6 +17,14 @@ builder.Services.AddScoped<IQuestionRepository, QuestionRepository>(repo
     builder.Configuration["CosmosConfig:containerName"]
 ));
 
+builder.Services.AddScoped<IEmployeeResponseRepository, EmployeeResponseRepository>(repo 
+=> new EmployeeResponseRepository(
+    builder.Configuration.GetConnectionString("CosmosDb"),
+    builder.Configuration["CosmosConfig:primaryKey"],
+    builder.Configuration["CosmosConfig:databaseName"],
+    builder.Configuration["CosmosConfig:containerName"]
+));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
