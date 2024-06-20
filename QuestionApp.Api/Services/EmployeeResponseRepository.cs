@@ -1,3 +1,6 @@
+using Microsoft.Azure.Cosmos;
+namespace QuestionApp.Api.Services;
+
 public class EmployeeResponseRepository : IEmployeeResponseRepository
 {
     private readonly Container _container;
