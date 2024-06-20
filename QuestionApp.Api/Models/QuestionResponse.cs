@@ -1,3 +1,4 @@
+namespace QuestionApp.Api.Models;
 public class QuestionResponse
 {
     public string QuestionId { get; set; }

@@ -6659,11 +6659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\projects\\test\\QuestionApp.Api\\QuestionApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Capital_Placement\\QuestionApp\\QuestionApp.Api\\QuestionApp.Api.csproj",
       "projectName": "QuestionApp.Api",
-      "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\projects\\test\\QuestionApp.Api\\QuestionApp.Api.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Capital_Placement\\QuestionApp\\QuestionApp.Api\\QuestionApp.Api.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\projects\\test\\QuestionApp.Api\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Capital_Placement\\QuestionApp\\QuestionApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

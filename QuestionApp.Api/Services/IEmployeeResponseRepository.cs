@@ -1,3 +1,5 @@
+using QuestionApp.Api.Models;
+
 namespace QuestionApp.Api.Services;
 public interface IEmployeeResponseRepository
 {
